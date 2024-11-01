@@ -1,0 +1,40 @@
+:root {
+    --background-color: #f7f9f9;
+    --verde-principal: #00856f;
+    --verde-secundario: #84ae61;
+    --texto-branco: #ffffff;
+    --preto-secundario: #495057;
+    --verde-card: #d2e0c7;
+    --verde-footer: #00856f;
+}
+
+footer {
+    height: 14rem;
+    padding: 0 5rem 0 5rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: var(--verde-principal);
+}
+
+footer > div:first-of-type {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer p {
+    color: var(--texto-branco);
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+footer span {
+    color: var(--texto-branco);
+    font-size: 1rem;
+}
+
+footer .icons {
+    display: flex;
+    gap: 2rem;
+}
